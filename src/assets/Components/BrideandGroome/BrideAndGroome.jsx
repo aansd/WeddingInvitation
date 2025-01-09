@@ -97,7 +97,7 @@ const BrideAndGroome = () => {
         {/* Figure di Lapisan Atas */}
         <figure
           className="absolute top-5 left-1/3 transform -translate-x-1/2 -translate-y-1/2 z-10"
-          data-aos="fade-left"
+          data-aos="fade-right"
         >
           <img
             src="/images/bride.jpg"
