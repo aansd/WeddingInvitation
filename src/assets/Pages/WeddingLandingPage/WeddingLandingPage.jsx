@@ -64,30 +64,6 @@ const WeddingLandingPage = () => {
       }
     };
   
-    const addPathAndQuery = () => {
-      const newPath = "/joneandjune/";
-      
-  
-      // Tambahkan path dan query ke URL
-      window.history.pushState(
-        {},
-        "",
-        `${window.location.origin}${newPath}`
-      );
-      // Reload halaman untuk memperbarui URL
-      window.location.reload();
-    };
-  
-    useEffect(() => {
-      // Periksa apakah URL sudah memiliki path dan query yang sesuai
-      const currentPath = window.location.pathname;
-     
-  
-      if (currentPath !== "/joneandjune/" ) {
-        // Tambahkan path dan query jika belum ada
-        addPathAndQuery();
-      }
-    }, []);
   
     // Mendapatkan parameter `name` dari URL
     const queryParams = new URLSearchParams(window.location.search);

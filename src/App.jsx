@@ -7,7 +7,7 @@ const App = () => {
     <BrowserRouter>
     <Routes>
       <ToastContainer/>
-      <Route path="/joneandjune/" element={<WeddingLandingPage />} />
+      <Route path="/" element={<WeddingLandingPage />} />
     </Routes>
   </BrowserRouter>
   )
